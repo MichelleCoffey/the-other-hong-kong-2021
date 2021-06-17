@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Viaoda+Libre&display=swap');
+
+body {
+    font-family: 'Satisfy', cursive;
+    color: darkslategray;
+}
+
+#logo {
+    font-family: 'Satisfy', cursive;
+    font-size: 28px;
+    color: darkslategray; 
+    margin-bottom: 10px; 
+}
+
+.navbar {
+    background-color: lightsalmon;
+    margin: 0px;
+}
+
+.navbar-brand {
+    text-align: left;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#map {
+    min-height: 360px;
+}
