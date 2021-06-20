@@ -9,7 +9,7 @@ body {
     font-family: 'Satisfy', cursive;
     font-size: 28px;
     color: darkslategray; 
-    margin-bottom: 10px; 
+    
 }
 
 .navbar {
@@ -27,10 +27,114 @@ body {
     
 }
 
-#hero-image {
+#hero-image, #background-image {
     height: 500px;
     width: 100%;
     object-fit: cover;
+}
+
+#background-image {
+    opacity: 0.5;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  
+}
+
+.container img {
+    vertical-align: middle;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;  
+  
+}
+
+.content {
+    display: inline-flexbox;
+    height: 300px;
+    padding-left: 30px;
+    font-size: 36px;
+    color: lightsalmon;
+}
+
+.content a {
+    color: darkslategray;
+}
+
+text-center-1 {
+    position: absolute;
+}
+
+.text-center-2 {
+    font-size: 18px;
+    color: darkslategray;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+    
+.icon-rounded {
+    background: lightsalmon;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 15px;
+    float: left;
+}
+
+h2 {
+    color: lightsalmon;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: rgb(33, 95, 25);
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li{
+    display: inline;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: lightsalmon;
+}
+
+
+ul.social-media {
+    padding: 0;
+    margin: 0;
+    
 }
 
 
