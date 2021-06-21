@@ -58,17 +58,17 @@ body {
 
 .content {
     display: inline-flexbox;
-    height: 300px;
+    height: 450px;
     padding-left: 30px;
     font-size: 36px;
     color: lightsalmon;
 }
 
 .content a {
-    color: darkslategray;
+   color: darkslategray;
 }
 
-text-center-1 {
+text-center {
     position: absolute;
 }
 
@@ -88,13 +88,66 @@ text-center-1 {
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
-    padding: 15px;
+    padding: 20px;
     float: left;
 }
 
 h2 {
     color: lightsalmon;
 }
+
+h1 {
+  margin-left: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2.8em;
+  color: darkslategray
+}
+#form-container {
+    background-color: lightsalmon;
+    height: 300px;
+    width: auto;
+}
+
+#form-container h1 {
+    padding-top: 10px;
+}
+
+
+.form-group {
+    padding: 10px; 
+    margin-bottom: 5px; 
+    border-top-style: none; 
+    border-right: 20px; 
+    border-left: 20px; 
+    font-size: 1em;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 60, 0;
+}
+
+
+
+.btn-primary {
+    color: black;
+    background-color: white;
+    float: right;
+	font-size:18px;
+	font-weight: 200;
+	padding:6px 24px;
+    margin-right: 60px;
+    text-decoration: none;
+    border-color: lightsalmon;
+}
+
+.btn-primary:hover {
+	
+    background-color: lightsalmon;
+    border-color: lightsalmon;
+}
+
+
 
 
 
@@ -107,7 +160,7 @@ h2 {
 
 footer{
     width: 100%;
-    background-color: rgb(33, 95, 25);
+    background-color: white;
 }
 
 .social-media {
