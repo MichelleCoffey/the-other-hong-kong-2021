@@ -36,6 +36,12 @@ html,body
     
 }
 
+
+.navbar-toggler-icon {
+    border-color: darkslategray;
+    
+}
+
 #hero-image, #background-image {
     height: 500px;
     width: 100%;
