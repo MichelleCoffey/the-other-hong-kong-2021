@@ -9,6 +9,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/style.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_8vyOrjTp3dkUNOh2nhFa2");
+})();
+</script>
 <title>The Other Hong Kong</title>
 </head>
 <body>
@@ -21,13 +27,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarToggler"> 
                 <ul class="nav justify-content-end">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Find</a>
+                        <a class="nav-link" href="#map-links">Find</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#form-container">Contact</a>
                     </li>
                 </ul>
 
@@ -51,13 +57,13 @@
             <img id="background-image" src="images/hkhike.jpg" class="" style="width:100%;">
             
                 <div class="content">
-                    <div class="text-center">
+                    <div class="text-center" id="map-links">
                     <h2 class="mb-5">Experience the other side of Hong Kong with hiking, yoga and some of the best spas in the world.</h2>
                 </div>
                     <div class="row">
                         <div class="col-sm">
                             <div class="icon-rounded bg-primary-light">
-                                <a href="index.html">
+                                <a id="hike" href="#">
                                     <i class="fas fa-hiking"></i>
                                         <h2>Hike</h2>
                                     </a>
@@ -68,7 +74,7 @@
                             </div>
                             <div class="col-sm">
                                 <div class="icon-rounded bg-primary-light">
-                                    <a href="index.html">
+                                    <a id="stretch" href="#">
                                         <i class="fas fa-praying-hands"></i>
                                             <h2>Stretch</h2>
                                     </a>
@@ -79,7 +85,7 @@
                             </div>
                             <div class="col-sm">
                                 <div class="icon-rounded bg-primary-light">
-                                    <a href="index.html">
+                                    <a id="spa" href="#">
                                         <i class="fas fa-hot-tub"></i>
                                         <h2>Relax</h2>
                                     </a>
@@ -105,19 +111,19 @@
 
     <section id="form-container">
         <h1>Subscription Form</h1>
-        <form class="needs-validation" novalidate>
+        <form id="form" class="needs-validation" novalidate>
             <div class="form-group">
-                <label for="formGroupExampleInput">Name:</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" value="" required>
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="for-_name" placeholder="Name" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
             <div class="form-group">
-                <label for="formGroupExampleInput2">Email:</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email_address" placeholder="Email">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" id="button" class="btn btn-primary">Submit</button>
         </form>
         
             
@@ -134,17 +140,17 @@
     <script>
         function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
+                zoom: 12,
                 center: {
-                    lat: 22.3193,
-                    lng: 114.1694,
+                    lat: 22.2588,
+                    lng: 114.1911,
                 }
             });
         }
     </script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script> 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKq13MDeuY8fytT7P-fKBTWcX_JwefJMM&callback=initMap"type="text/javascript"></script>
-    
+    <script src="assets/js/mail.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
