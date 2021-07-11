@@ -36,22 +36,24 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
 * [Media](#media)
 * [Individuals](#individuals)
 ## User Experience (UX)
-* User Stories 
+User Stories 
+
  
  1. First Time Visitor Goals
-    a. First time visitors should be able to clearly access all materials that inform the user of possible events organised by A Moveable Feast. 
-        There is an alert for covid related information that opens on a new page. The logo is clickable and the navbar contains links to the homepage, 
-        feast (info regarding events), a gallery and a signup sheet. 
+    a. First time visitors should be able to clearly access all links that inform the user of places to go in Hong Kong for hikes, yoga and spas. The city is also a haven for hikers and those who enjoy the great outdoors.
+      
         
-    b. The colours are attracted to the eye and do not detracted from the images.  On the homepage 
-        or landing page the new user will learn about A Moveable Feast's hope to connect people to great new food and beverage offerings arouned the Shanghai. The 
-        footer links to all social media links including facebook, twitter, instagram and wechat.
-    
+    b. The colours are attractive to the eye and lead the user down the page with the subtle colours that connect the different questions. An orange sun setting over a concrete gray Hong Kong.
+The Navbar in bright orange with text in grey leads the reader’s gaze down through the page. A hiker perched atop a ridge looking down on the concrete jungle below. This is the opposite view of hong kong that people are used to seeing. It is usually a port view of Hong Kong taken from Kowloon. Next section provides the active links that introduces the new Hong Kong on google maps. A sign up sheet is a available to allow users to receive updates on locally organised group events. Finally, the footer links to the many social media accounts that will provide further updates for the Other Hong Kong. 
+
         
-    c. Upon clicking the Feast page you see the offerings of local food nights, international food and drinks night. The utensil icons and cocktail icon also link to the sign up page.
-    d. The sign up page is a smiple box that asks for the first user to sign up to receive invites to nights out in different restaurants. The user is encouraged to choose their preference between local, international and a bar night. 
-    e. Finally the gallery page shows images of the many different types of food on offer as a means of enticing the new customer. 
-    f. The pdf alert is there to offer reasurance to the user. It also has a QR code link to the city tracking app and a moveable feasts wechat account where customers can easily meassge any queries. 
+    c. Clicking either the home page or the company logo the user will find themselves on the main landing page. 
+
+    d. The Explore button in the navbar leads the user to main interactive component of the site. My clicking hikes, markers for five different hikes in hong kong will appear with details regarding difficulty and length of hike. The yoga praying icon with provide google map icons for yoga classes and finally the bath icon will lead the user to five spas. 
+
+    e. Contact will allow the user to subscribe to any further details about locally organised group hikes in and around Hong Kong. 
+
+  
  2. Returning Visitor Goals 
      Returning users can access any information they may have forgotten and use the active social media sites and we chat account. 
     
@@ -61,16 +63,7 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
  ### Photo story for first time user
 
  ![The Other Hong Kong homepage on mobile, ipad, ipad pro and desk top.](images/homepage.png) "A Moveable Feast on multiple displays"
-  The user will find images of the city, food and market dining options. There is also an easy to use navbar that links easily to the gallery, dining option informationa and finally the contact section. The landing page also explains the idea behind the website and the idea of making it easier to intruducing new food to tourists living in Shanghai. Due to Covid many people are concerned over eating in public or especially dining out with strangers. This alsert is hopefully temporary but guides the user to QR codes that help register the health info of the user but also an account for further information. 
-
- ![A pdf with Covid19 information and city QR codes.](images/covid19.png) "Covid19 safety information PDF"
-
-  In this time of Covid19, the user will find an alert regarding practices and safety measures. 
-  This links to a pdf with two QR codes. One QR code is for the WECHAT account and gives the user 
-  the oppourtunity to contact A Moveable Feast regarding concerns about dining out. The second is 
-  QR for registering your Health status as required by Shanghai Municipality and restaurants.
-  The alert can also be removed and does not affect the site, when things change for the better. 
-
+ 
   ![The Other Hong Kong feast page on mobile, ipad, ipad pro and desktop.](images/feastpage.png) "Feast page on multiple devices. "
 
   The user will find info with a picture connected to each dining option. Should they want local food, 
@@ -84,11 +77,11 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
 
   ![The Other Hong Kong contact page on mobile, ipad, ipad pro and desktop.](images/contactpage.png) "Contact page on multiple devices. "
 
-  The user is given the oppourtunity to register and request further information regarding nights out in Shanghai. 
+  The user is given the opportunity to register and request further information regarding nights out in Shanghai. 
+
 # Design 
   ## Color Scheme  
-  * Three main colors where chosen. Two were blue hues while the final is a white background. This a food based website, 
-     so the added effect of text and images on a white background was to give  the illusion of  menu. The color was also inspired by the logo itself.  
+  * Three main colors where chosen. These colours were inspired by the image of the sun setting over Hong Kong. The main colour is that of pink salmon
      Colors are #13baec, white,  and #1339e4.
  ## Typography 
     
@@ -138,9 +131,9 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
 ### Github
 #### The repository is hosted on github and I have therefore used github pages to deploy the site. 
   1. On Github, go to your site's repository.
-  2. Under your repository name, click settings and scroll down to github pages. 
+  2. Under your repository name, click settings and scroll down to Github pages. 
   3. Under the "Github pages:", use the None or Branch drop-down menu and select a publishing source. For a Moveable Feast, the master was selected, root and both actions were saved using the save button. A theme or custom domain were not chosen at this time. 
-  4. After saving the actions. Next click the active link on the repository page on github. Full delpoyment may take a minute or two, so refresh the page and be patient. 
+  4. After saving the actions. Next click the active link on the repository page on Github. Full deployment may take a minute or two, so refresh the page and be patient. 
   
 #### Cloning of Repository to a local device.
   1. On GitHub, again go to the main page of the repository. 
@@ -149,12 +142,12 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
      To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . 
      To clone a repository using GitHub CLI, click Use GitHub CLI, then click .
   4. Open Terminal 
-  5. Change the cirrent working directory to the location where you want the cloned directory. 
+  5. Change the current working directory to the location where you want the cloned directory. 
   6. TYpe git clone, and then paste the URL you copied eariler. 
   7. Press Enter to create your local clone. 
 
 #### Cloning a repository to GitHub Desktop. 
-  1. On GitHub, naviagte to the main page of the repository.
+  1. On GitHub, navigate to the main page of the repository.
   2. Above the list of files, click Code. 
   3. Click  Open with GitHub Desktop to clone and open the repository with GitHub Desktop.
   4. Follow the prompts in GitHub Desktop to complete.   
@@ -192,4 +185,3 @@ W3C CSS Validator Services was used to validate CSS.
  * Alex Harvey, a guide to writing a table of contents in gitpod. 
 #### Code
 * 
-
