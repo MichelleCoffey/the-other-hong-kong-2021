@@ -162,10 +162,23 @@ h1 {
     border-color: lightsalmon;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-outline-info:hover {
 	
     background-color: lightsalmon;
     border-color: lightsalmon;
+}
+
+.btn-outline-info {
+    font-size: 18px;
+    font-weight: 200;
+    color: darkslategray;
+    border-color: darkslategray;
+    
+}
+
+.col {
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 
