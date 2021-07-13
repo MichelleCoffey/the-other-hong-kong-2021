@@ -63,38 +63,38 @@ emailjs.init("user_8vyOrjTp3dkUNOh2nhFa2");
                         </div>
                     <div class="row">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Victoria Peak</button> 
+                            <button type="button" class="btn btn-outline-info"id="Victoria-Peak">Victoria Peak</button> 
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Dragons Back</button>
+                            <button type="button" class="btn btn-outline-info" id="Dragons-Back">Dragons Back</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Violet Hill</button>
+                            <button type="button" class="btn btn-outline-info" id="Violet-Hill">Violet Hill</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Sunset Peak</button>
+                            <button type="button" class="btn btn-outline-info" id="Sunset-Peak">Sunset Peak</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Lamma Island</button>
+                            <button type="button" class="btn btn-outline-info" id="Lamma-Island">Lamma Island</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Devil Peak</button>
+                            <button type="button" class="btn btn-outline-info" id="Devils-Peak">Devil's Peak</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Sai Wan Beach</button>
+                            <button type="button" class="btn btn-outline-info" id="Sai Wan Beach">Sai Wan Beach</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">High Junk Peak</button>
+                            <button type="button" class="btn btn-outline-info" id="High-Junk-Peak">High Junk Peak</button>
                         </div>    
                     </div>
                     <div class="row">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Thousand Island Lake</button>
+                            <button type="button" class="btn btn-outline-info" id="Thousand-Island-Lake">Thousand Island Lake</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outline-info">Lion Rock</button>
+                            <button type="button" class="btn btn-outline-info" id="Lion-Rock">Lion Rock</button>
                         </div>
                     </div>    
                                 
@@ -112,25 +112,32 @@ emailjs.init("user_8vyOrjTp3dkUNOh2nhFa2");
    
 
 
-    <section id="form-container">
-        <h1>Subscription Form</h1>
-        <form id="form" class="needs-validation" novalidate>
-            <div class="form-group">
+<section id="form-container">
+        <h1>Contact Form</h1>
+    <form id="form" class="needs-validation" novalidate>
+        <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" class="form-control" id="for-_name" placeholder="Name" value="" required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                </div>
+                <input type="text" class="form-control" id="fromName" name="from_name" for="name" placeholder="Name" value="" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="text" class="form-control" id="email_address" placeholder="Email">
+                <input type="text" class="form-control" id="fromEmail" name="from_email" for="emailaddress" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact:</label>
+                <textarea type="text" class="form-control" name="contact_us" for="contactus" id="contactUs" cols="20" rows="5">Let us know where you want to go!</textarea>
             </div>
             <button type="submit" id="button" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
+    </div>
+</div>
+    </form>
         
             
-    </section>
+</section>
 
     <footer class="d-block">
         <ul class="social-media">

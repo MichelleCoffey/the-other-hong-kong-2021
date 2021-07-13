@@ -98,18 +98,7 @@ text-center {
 }
 
     
-.icon-rounded {
-    background: lightsalmon;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding: 20px;
-    float: left;
-    overflow: hidden;
-}
+
 
 h2 {
     color: lightsalmon;
@@ -117,7 +106,6 @@ h2 {
 
 h1 {
   margin-left: auto;
-  margin-top: 50px;
   text-align: center;
   font-weight: 100;
   font-size: 2.8em;
@@ -127,7 +115,7 @@ h1 {
 
 #form-container {
     background-color: lightsalmon;
-    height: 300px;
+    height: 500px;
     width: auto;
 }
 
@@ -146,6 +134,7 @@ h1 {
     font-weight: 100;
     font-size: 18px;
     margin: 60, 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
