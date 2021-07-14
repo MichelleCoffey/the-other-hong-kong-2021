@@ -26,7 +26,8 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
 ### [Deployment](#delpoyment)
 * [GitHub](#github)
 * [Cloning to Local Device](#cloning-of-repository-to-a-local-device)
-* [Cloning to a Desktop](#cloning-a-repository-to-github-desktop)
+* [Setting up a google maps javascript API](#Setting-up-a-google-maps-javascript-API)
+
 ### [Testing](#testing)
 [Bugs](#bugs)
 - [Gallery](#gallery)
@@ -81,24 +82,23 @@ The Navbar in bright orange with text in grey leads the reader’s gaze down thr
 
 # Design 
   ## Color Scheme  
-  * Three main colors where chosen. These colours were inspired by the image of the sun setting over Hong Kong. The main colour is that of pink salmon
+  * Three main colors where chosen. These colours were inspired by the image of the sun setting over Hong Kong City. The main colour is that of pink salmon
      Colors are #13baec, white,  and #1339e4.
  ## Typography 
     
-  * Font used is Montserrat. It has a long history, is easy to read and suits the concept of a food website. Sans Serif should be the fall back font as is the industry standard and is compatible on most devices. 
+  * Font used isn satisfy and cursive. I wanted something relaxed and flowing. 
  ## Imagery
-  * Images used were some of my own and also stock images taken from unsplash. The images were used to first engage with the food images and then with those who participate in the events and finally with the different types of restaurtant. 
-    Images must depict diverse tastes and interests in order to attract a many and varied crowd. 
+  * Images used were from Shuttershock and of particilar hiking locations in Hong Kong. 
   
 ## Features
 * Responsive on all devices and have interactive elements for bookings. Icons that link to further social media updates.
 
 ## Wireframes
 
-* Wireframe for the whole project. [View](wireframe/amf.pdf)
-* Wireframe for the whole project. [View](wireframes/amf.pdf)
+* Wireframe for the whole project. [View](assets/wireframes/tohk2021.pdf)
 
-![Homepage wireframe.](images/home.png) "Home page wireframe "
+
+![Homepage wireframe.](images/tohk2021.png) "Home page wireframe "
 "
 
 # Technologies Used 
@@ -110,9 +110,9 @@ The Navbar in bright orange with text in grey leads the reader’s gaze down thr
   
     Bootstrap 4.6.X:
 2. Hover.css:
-3.  [Wix](https://www.wix.com/)
-    Wix was used to make the logo for A moveable Feast. 
-4. [Google Fonts](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom)
+3.  [flaticon](https://www.flaticon.com/free-icons/hiking)
+    Flaticon was used to make the logo and the map markers. 
+4. [Google Fonts](https://fonts.google.com/specimen/Satisfy)
 5. [Fontawesome](https://fontawesome.com/)
     Fontawesome was used for to get icons for utensils and aa cocktail on the feast page. 
 6. [Gitpod](https://gitpod.io/workspaces/)
@@ -126,7 +126,10 @@ The Navbar in bright orange with text in grey leads the reader’s gaze down thr
 10. [TinyPNG](https://tinypng.com/)
      * Tinypng for fomatting images, so they. loaded faster.
 11. [Unsplash](https://unsplash.com/)
+    * Upsplash was used to access some stock images to add to the site and in particular the hero image and background image. 
+12. [Google Maps API](https://developers.google.com/maps)
     * Upsplash was used to access some stock images to add to the site and in particular the galllery and carousel. 
+
 ## Deployment 
 ### Github
 #### The repository is hosted on github and I have therefore used github pages to deploy the site. 
@@ -151,6 +154,100 @@ The Navbar in bright orange with text in grey leads the reader’s gaze down thr
   2. Above the list of files, click Code. 
   3. Click  Open with GitHub Desktop to clone and open the repository with GitHub Desktop.
   4. Follow the prompts in GitHub Desktop to complete.   
+
+#### Setting up a google maps javascript API.
+
+  ### Creating a project
+1. To use Google Maps Platform, you must have a project to manage       services, credentials, billing, APIs, and SDKs.
+
+2. Billing setup is required for each project, but you will only be charged if a project exceeds its free quota.
+
+3. To create a Cloud project with billing enabled:
+   Create a new Google Cloud project in the Cloud Console:
+
+    - Create new project
+
+    - On the New Project page, fill in the required information:
+
+    - Project name: Accept the default or enter a customized name.
+
+    - You can change the project name at any time. For more information, see Identifying projects.
+
+    - Project ID: Accept the default or click EDIT to enter a customized ID that Google APIs use as a unique identifier for your project.
+
+    - After you create the project, you cannot change the project ID, so choose an ID that you'll be comfortable using for the lifetime of the project. Don't include any sensitive information in your project ID.
+
+    - Billing account: Select a billing account for the project. If you haven't set up a billing account or only have one billing account, you won't see this option.
+
+    - You must be a Billing Account Administrator or Project Billing Manager to associate a project with a billing account. For more information, see the billing access control documentation.
+
+    - Location: If you have an organization you want to link your project to, click Browse and select it; otherwise, choose "No organization".
+
+### Enabling billing
+1. To deploy your apps, you must enable billing. Your account will   not be charged if you stay within your free quota. If your application needs resources that exceed the free quota, you will be charged for the additional usage.
+
+  2.  If you have a billing account when you create a Cloud project, then billing is automatically enabled on that project.
+
+  3.  To enable billing on a Cloud project:
+
+   - In the Cloud Console, go to the Billing page:
+
+   - Go to the Billing page
+
+  - Select or create a Cloud  project.
+
+  -  Depending on if a billing account exists or if the selected Cloud project is associated with an account, the Billing page displays one of the following:
+
+  -  If billing is already enabled for the selected Cloud project, then the details about the billing account are listed.
+
+  -  If no billing account exists, you are prompted to create a billing account and associate it with the selected Cloud project.
+
+  -  If a billing account exists, you are prompted to enable billing if the selected Cloud project is not already associated with a billing account. You can also click Cancel and then click Create account to create and associate a new billing account.
+
+- After you enable billing, there is no limit to the amount that you might be charged. To gain more control over your costs, you can create a budget and set alerts. For more information, see Billing.
+
+### Creating API keys
+1. The API key is a unique identifier that authenticates requests associated with your project for usage and billing purposes. You must have at least one API key associated with your project.
+
+2. To create an API key:
+
+3. Go to the Google Maps Platform > Credentials page.
+
+4. Go to the Credentials page
+
+5. On the Credentials page, click Create credentials > API key.
+The API key created dialog displays your newly created API key.
+Click Close.
+The new API key is listed on the Credentials page under API keys.
+(Remember to restrict the API key before using it in production.)
+
+### Restricting API keys
+1. Restricting API keys adds security to your application by ensuring only authorized requests are made with your API key. We strongly recommend that you follow the instructions to set restrictions for your API keys. For more information, see API security best practices.
+
+2. To restrict an API key:
+
+3. Go to the Google Maps Platform > Credentials page.
+
+4. Go to the Credentials page
+
+- Select the API key that you want to set a restriction on. The API key property page appears.
+- Under Key restrictions, set the following restrictions:
+Application restrictions:
+To accept requests from the list of website that you supply, select HTTP referrers (web sites) from the list of Application restrictions.
+Specify one or more referrer web sites. For example, *.google.com accepts all sites ending in google.com, such as https://developers.google.com.
+Note: file:// referers need a special representation to be added to the key restriction. The "file://" part should be replaced with "__file_url__" before being added to the key restriction. For example, "file:///path/to/" should be formatted as "__file_url__//path/to/*". After enabling file:// referers, it is recommended you regularly check your usage, to make sure it matches your expectations.
+
+4. API restrictions:
+Click Restrict key.
+Select Maps JavaScript API from Select APIs dropdown. If the Maps JavaScript API is not listed, you need to enable it.
+If your project uses Places Library, also select Places API. Similarly, if your project uses other services in the JavaScript API (Directions Service, Distance Matrix Service, Elevation Service, and/or Geocoding Service), you must also enable and select the corresponding API in this list.
+5. To finalize your changes, click Save.
+
+### Adding the API key to your request
+- You must include an API key with every Maps JavaScript API request. In the following example, replace YOUR_API_KEY with your API key.
+
+
+
 
 ## Testing 
 HTML Code Testing was provided by W3C MarkUp Markup Validation Services. I have removed the warning because nottes were flagged because of "--".
