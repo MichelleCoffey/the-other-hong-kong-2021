@@ -24,6 +24,7 @@ html,body
 .navbar {
     background-color: lightsalmon;
     margin: 0px;
+    flex-wrap: nowrap;
 }
 
 .navbar-brand {
@@ -55,6 +56,7 @@ html,body
 .container {
   position: relative;
   max-width: 100%;
+  height: fit-content;
   margin: 0;
   
 }
@@ -73,7 +75,7 @@ html,body
 
 .content {
     display: inline-flexbox;
-    height: 450px;
+    height: 300px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 36px;
@@ -94,7 +96,7 @@ text-center {
     font-size: 18px;
     color: darkslategray;
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
     
@@ -166,8 +168,8 @@ h1 {
 }
 
 .col {
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 
