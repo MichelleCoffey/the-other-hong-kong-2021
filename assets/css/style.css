@@ -43,8 +43,14 @@ html,body
     
 }
 
-#hero-image, #background-image {
+#hero-image {
     height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#background-image {
+    height: 300px;
     width: 100%;
     object-fit: cover;
 }
@@ -97,6 +103,10 @@ text-center {
     color: darkslategray;
     display: inline-block;
     padding-top: 20px;
+}
+
+.mb-5, .my-5 {
+    padding-top: 30px;
 }
 
     
