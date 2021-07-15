@@ -10,7 +10,7 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
 * [Returning Visitor Goals](#returning-visitor-goals)
 * [Frequent Visitor Goals](#frequent-visitor-goals)
 
-* [Photo story for first time user](#photo-story-for-first-time-user)
+
 
 
 ### [Design](#design)
@@ -29,6 +29,8 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
 * [Setting up a google maps javascript API](#Setting-up-a-google-maps-javascript-API)
 
 ### [Testing](#testing)
+### [User Stories] (#)
+[Photo story for first time user](#photo-story-for-first-time-user)
 [Bugs](#bugs)
 - [Gallery](#gallery)
 - [Navbar](#navbar)
@@ -41,54 +43,36 @@ User Stories
 
  
  1. First Time Visitor Goals
-    a. First time visitors should be able to clearly access all links that inform the user of places to go in Hong Kong for hikes, yoga and spas. The city is also a haven for hikers and those who enjoy the great outdoors.
+    a. First time visitors should be able to clearly access all links that inform the user of places to go in Hong Kong for hikes, that give impresseive views of the equally impressive city. While Hong Kong may be famous for its shopping, it can also attract those who enjoy impress views while on tough hikes. 
       
         
     b. The colours are attractive to the eye and lead the user down the page with the subtle colours that connect the different questions. An orange sun setting over a concrete gray Hong Kong.
-The Navbar in bright orange with text in grey leads the reader’s gaze down through the page. A hiker perched atop a ridge looking down on the concrete jungle below. This is the opposite view of hong kong that people are used to seeing. It is usually a port view of Hong Kong taken from Kowloon. Next section provides the active links that introduces the new Hong Kong on google maps. A sign up sheet is a available to allow users to receive updates on locally organised group events. Finally, the footer links to the many social media accounts that will provide further updates for the Other Hong Kong. 
+    The Navbar in bright burnt orange with text in grey leads the reader’s gaze down through the page and the image of a hiker perched atop a ridge looking down on the concrete jungle below. This is the opposite view of hong kong that people are used to seeing. It is usually a port view of Hong Kong taken from Kowloon. Next section provides the active links that introduces the new Hong Kong on google maps. A sign up sheet is a available to allow users to receive updates on locally organised group events. Finally, the footer links to the many social media accounts that will provide further updates for the Other Hong Kong. 
 
         
     c. Clicking either the home page or the company logo the user will find themselves on the main landing page. 
 
-    d. The Explore button in the navbar leads the user to main interactive component of the site. My clicking hikes, markers for five different hikes in hong kong will appear with details regarding difficulty and length of hike. The yoga praying icon with provide google map icons for yoga classes and finally the bath icon will lead the user to five spas. 
+    d. The Explore button in the navbar leads the user to main interactive component of the site. My clicking hikes, markers for five different hikes in hong kong will appear with details regarding difficulty and length of hike. 
 
-    e. Contact will allow the user to subscribe to any further details about locally organised group hikes in and around Hong Kong. 
+    e. Contact will allow the user to get info to any further details about locally organised group hikes in and around Hong Kong. 
 
   
  2. Returning Visitor Goals 
      Returning users can access any information they may have forgotten and use the active social media sites and we chat account. 
     
 3. Frequent User Goals 
-    This is static site so less things will change and there will be little need for frequent users. Users can return to check if any images have been updated. 
-          
- ### Photo story for first time user
-
- ![The Other Hong Kong homepage on mobile, ipad, ipad pro and desk top.](images/homepage.png) "A Moveable Feast on multiple displays"
- 
-  ![The Other Hong Kong feast page on mobile, ipad, ipad pro and desktop.](images/feastpage.png) "Feast page on multiple devices. "
-
-  The user will find info with a picture connected to each dining option. Should they want local food, 
-  international food or to find a new drinking spot. Each option also has an icon of either cutlery or 
-  a cocktail glass that links to the signup page. 
-
-  ![The Other Hong Kong gallery page on mobile, ipad, ipad pro and desktop.](images/gallerypage.png) "Gallery page on multiple devices. "
-
-  The user will find examples of the many delectable foods on offer around Shanghai. 
-
-
-  ![The Other Hong Kong contact page on mobile, ipad, ipad pro and desktop.](images/contactpage.png) "Contact page on multiple devices. "
-
-  The user is given the opportunity to register and request further information regarding nights out in Shanghai. 
+    The user can become more familiar with the terrain and geography of Hong Kong.
+           
 
 # Design 
   ## Color Scheme  
   * Three main colors where chosen. These colours were inspired by the image of the sun setting over Hong Kong City. The main colour is that of pink salmon
-     Colors are #13baec, white,  and #1339e4.
+     Colors are pinksalmon like a sunset and darkslate gray to represent the concrete jungle below.
  ## Typography 
     
-  * Font used isn satisfy and cursive. I wanted something relaxed and flowing. 
+  * Font used is Satisfy and cursive. I wanted something relaxed and flowing. 
  ## Imagery
-  * Images used were from Shuttershock and of particilar hiking locations in Hong Kong. 
+  * Images used were from Unsplash and of particilar hiking locations in Hong Kong. 
   
 ## Features
 * Responsive on all devices and have interactive elements for bookings. Icons that link to further social media updates.
@@ -105,6 +89,7 @@ The Navbar in bright orange with text in grey leads the reader’s gaze down thr
 ## Languages Used 
 * HTML
 * CSS
+* Javascript
 ## Frameworks Libraries and Programs Used 
 1. [Bootstrap](https://www.getbootstrap.com)
   
@@ -121,14 +106,19 @@ The Navbar in bright orange with text in grey leads the reader’s gaze down thr
      GitHub is hosting my repositories. 
 8. JQuery: 
     * Is used by Bootstrap.
+
 9. [Balsamiq](https://balsamiq.com/)
     * Balsamiq was used to design and organise my WireFrames. 
 10. [TinyPNG](https://tinypng.com/)
-     * Tinypng for fomatting images, so they. loaded faster.
+     * Tinypng for fomatting images, so they loaded faster.
 11. [Unsplash](https://unsplash.com/)
     * Upsplash was used to access some stock images to add to the site and in particular the hero image and background image. 
 12. [Google Maps API](https://developers.google.com/maps)
     * Upsplash was used to access some stock images to add to the site and in particular the galllery and carousel. 
+13. [Timeout Hong Kong](https://www.timeout.com/hong-kong/sport-and-fitness/best-hikes-hong-kong)
+    * Information for hikes around Hong Kong was taken from a TimeOut feature.
+14. [Emailjs](https://www.emailjs.com/)
+    * Information for hikes around Hong Kong was taken from a TimeOut feature.
 
 ## Deployment 
 ### Github
@@ -250,7 +240,30 @@ If your project uses Places Library, also select Places API. Similarly, if your 
 
 
 ## Testing 
+
+### Photo story for first time user
+
+### User Stories
+
+ ![The Other Hong Kong homepage on mobile, ipad, ipad pro and desk top.](images/homepage.png) "A Moveable Feast on multiple displays"
+ 
+  ![The Other Hong Kong feast page on mobile, ipad, ipad pro and desktop.](images/feastpage.png) "Feast page on multiple devices. "
+
+  The user will find info with a picture connected to each dining option. Should they want local food, 
+  international food or to find a new drinking spot. Each option also has an icon of either cutlery or 
+  a cocktail glass that links to the signup page. 
+
+  ![The Other Hong Kong gallery page on mobile, ipad, ipad pro and desktop.](images/gallerypage.png) "Gallery page on multiple devices. "
+
+  The user will find examples of the many delectable foods on offer around Shanghai. 
+
+
+  ![The Other Hong Kong contact page on mobile, ipad, ipad pro and desktop.](images/contactpage.png) "Contact page on multiple devices. "
+
+  The user is given the opportunity to register and request further information regarding nights out in Shanghai.
 HTML Code Testing was provided by W3C MarkUp Markup Validation Services. I have removed the warning because nottes were flagged because of "--".
+
+
 ![successful validation confirmation](images/homevalidator.png) "Home Page HTML success."
 
 W3C CSS Validator Services was used to validate CSS.
