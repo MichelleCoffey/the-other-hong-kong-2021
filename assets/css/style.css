@@ -14,6 +14,8 @@ html,body
     overflow-x: hidden; 
 }
 
+/*  Navbar and Logo styling */
+
 #logo {
     font-family: 'Satisfy', cursive;
     font-size: 28px;
@@ -47,6 +49,8 @@ html,body
     
 }
 
+/* Images and container */
+
 #hero-image {
     height: 500px;
     width: 100%;
@@ -74,6 +78,8 @@ html,body
 .container img {
     vertical-align: middle;
 }
+
+/* buttons and container */
 
 .container .content {
   position: absolute;
@@ -114,7 +120,7 @@ text-center {
 }
 
     
-
+/* Headers */
 
 h2 {
     color: lightsalmon;
@@ -128,6 +134,8 @@ h1 {
   color: darkslategray
   
 }
+
+/* Form */
 
 #form {
     margin: auto;
@@ -163,7 +171,7 @@ button, input {
     overflow: hidden;
 }
 
-
+/* bootstrap buttons */
 
 .btn-primary {
     color: black;
@@ -198,9 +206,11 @@ button, input {
 
 }
 
+/* form smaller in larger devices */
+
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+  and (min-device-width: 600px) 
+  and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
     {
     #form {
@@ -212,7 +222,7 @@ button, input {
 
     }
 
-
+/* Social Media */
 
 footer{
     width: 100%;
@@ -243,6 +253,8 @@ ul.social-media {
     padding: 0;
     
 }
+
+/* Map */
 
 div#map {
     min-height: 360px;

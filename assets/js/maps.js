@@ -76,6 +76,8 @@ function addMarker(property){
      content: property.content
   });
 
+  // open and close infowindow
+
   marker.addListener("click", () =>{
     if(activeInfoWindow){activeInfoWindow.close();}
     detailWindow.open(map, marker);
@@ -90,7 +92,4 @@ function myClick(id) {
   google.maps.event.trigger(markers[id], 'click');
 
 }
-
-
-
 

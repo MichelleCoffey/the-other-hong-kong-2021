@@ -35,9 +35,13 @@ This is the main website for *The Other Hong Kong*. We aim to introduce people t
 - [Gallery](#gallery)
 - [Navbar](#navbar)
 - [form](#form)
+- [Javascript for Maps](#javascript-for-maps)
+- [Javascript for mail](#javascript-for-mail)
 ### [Acknowledgements](#acknowledgements)
 * [Media](#media)
 * [Individuals](#individuals)
+
+
 ## User Experience (UX)
 User Stories 
 
@@ -118,7 +122,7 @@ User Stories
 13. [Timeout Hong Kong](https://www.timeout.com/hong-kong/sport-and-fitness/best-hikes-hong-kong)
     * Information for hikes around Hong Kong was taken from a TimeOut feature.
 14. [Emailjs](https://www.emailjs.com/)
-    * Information for hikes around Hong Kong was taken from a TimeOut feature.
+    * Emailjs was used to help the user contact the site for more information regarding hikes. 
 
 ## Deployment 
 ### Github
@@ -236,6 +240,24 @@ If your project uses Places Library, also select Places API. Similarly, if your 
 ### Adding the API key to your request
 - You must include an API key with every Maps JavaScript API request. In the following example, replace YOUR_API_KEY with your API key.
 
+## EmailJS
+### Connecting email service
+
+- To connect an email service:
+
+* Open Email Services (opens new window)page in EmailJS dashboard
+  Choose from the list of supported services and click on the service
+  Fill out the service details
+  Test the email service and make sure you receive the test email
+
+- To create an email template:
+
+* Open the Email Templates (opens new window)page in EmailJS dashboard
+  Click the Create New Template button
+  Fill out the template properties
+  Test the template either via the Test dialog, or by opening the auto-generated JSFiddle, which allows you to see the code example, and to easily fill out the template parameters and send the email.
+
+
 
 
 
@@ -245,53 +267,78 @@ If your project uses Places Library, also select Places API. Similarly, if your 
 
 ### User Stories
 
- ![The Other Hong Kong homepage on mobile, ipad, ipad pro and desk top.](images/homepage.png) "A Moveable Feast on multiple displays"
+ ![The Other Hong Kong homepage on mobile, ipad, ipad pro and desk top.](images/tohkresdes.png) "The Other Hong Kong on multiple displays"
  
-  ![The Other Hong Kong feast page on mobile, ipad, ipad pro and desktop.](images/feastpage.png) "Feast page on multiple devices. "
+  ![The Other Hong Kong feast page on mobile, ipad, ipad pro and desktop.](images/find.png) "Feast page on multiple devices. "
 
-  The user will find info with a picture connected to each dining option. Should they want local food, 
-  international food or to find a new drinking spot. Each option also has an icon of either cutlery or 
-  a cocktail glass that links to the signup page. 
+  The home page greets you with a sunset over Hong Kong and a challenge to climb the mountains you usually see on the way to work. 
 
-  ![The Other Hong Kong gallery page on mobile, ipad, ipad pro and desktop.](images/gallerypage.png) "Gallery page on multiple devices. "
-
-  The user will find examples of the many delectable foods on offer around Shanghai. 
+  
+  As the user scrolls dowm, the will find buttons the link to markers and infowindows on the map. The infowindows will introduce the more exciting part of Hong Kong, some history about the locations and the vistas you can expect to view. 
 
 
   ![The Other Hong Kong contact page on mobile, ipad, ipad pro and desktop.](images/contactpage.png) "Contact page on multiple devices. "
 
-  The user is given the opportunity to register and request further information regarding nights out in Shanghai.
-HTML Code Testing was provided by W3C MarkUp Markup Validation Services. I have removed the warning because nottes were flagged because of "--".
-
+  The user will have the oppourtunity to register there interest in hikes. 
 
 ![successful validation confirmation](images/homevalidator.png) "Home Page HTML success."
 
 W3C CSS Validator Services was used to validate CSS.
 
 ![successful validation confirmation](images/cssvalidator.png) "Home Page HTML success."
+ * the flexbox that was pinged was actually necassary for the image and remained in the CSS.
 
-![Lighthouse Performance 93%, Accessibilty 93%, Best Practices 95%, SEO 100% on desktop](images/lighthouse.png) "Lighthouse score for the websites user efficency."
+![successful validation confirmation](images/mapjsval.png) "Home Page HTML success."
+
+![successful validation confirmation](images/mailjsval.png) "Home Page HTML success."
+
+![Lighthouse Performance 77%, Accessibilty 89%, Best Practices 93%, SEO 100% on desktop](images/lighthouse.png) "Lighthouse score for the websites user efficency."
 
 ### Bugs
 #### Gallery
 
-1. 
-2. 
-3. 
-#### Navbar
-* Because the logo was designed on Wix and was white, I had to target the color because bootstrap overrides the border color. 
-  I did this by making the navbar background-color white in the style sheet. 
- #### Form 
- * This was the most difficult to control but by making the margin: auto it became responsive and also by adding d-flex from bootstrap. 
+1. Images were a little big so I used tinypng to compress them. 
+2. I used an hiking icon in the map and I got and figured out how to use this by downloading a small px hiker. 
 
+#### Navbar
+* Had a glitch that made the toggler appear at all times. This was remedied by comparing my code and bootstraps code for responsive togglers. I was able to find the error in the html. 
+ #### Form 
+ * The form pushed left on small devices. I removed the width of 400px, which helped and then targeted the media query on larger devices. 
+
+ #### Javascript for Maps
+
+ * My mentor recommended a youtube tutorial by Sam Codes that help with my ideas and intial coding for markers and infowindows. 
+
+ [Sam Codes](https://www.youtube.com/watch?v=uPhWSyRqQDA)
+
+ * I then needed to link the buttons with the markers and infowindows. This was helped with tutors and with Stackoverflow onclick explanations. This caused an issue when I put function within let markers within the init map function when it needed to go before it.
+
+ * Finally I needed to make sure a window would close when a new one was opened. This was also achieved by looking at another W3schools tutorial. [Stackoverflow](https://stackoverflow.com/questions/2223574/google-maps-auto-close-open-infowindows)
+
+ #### Javascript for Mail
+ * My initial mail wouldn't work or was sending it when the page opened, without any input. I then had to add windowonload before the function and this worked. 
 ## Acknowledgements
 ### Media
 * Code Institute Tutorials for providing a jumping off block. 
  * Slack for being a great source of help with either googling or when other students have provided suggestions to help improve your work. 
+ * Code Institute Tutorials. 
  ### Individuals
- * My Mentor, . 
+ * My Mentor, Precious Ijege. 
  * Tutors at Code Institute are great guiding hand.   They do not give you the answer but ask the right questions to lead you down the correct path. It also helps build confidence. 
  * Anne Greaves and Code Institute for a comprehensive guide to writing README.md. The template was taken from the Code Institute Guide to writing README and how to write Markdown.
+ * I have also used elements and the template of my first read, such as the table of contents. 
  * Alex Harvey, a guide to writing a table of contents in gitpod. 
+
+
 #### Code
-* 
+ As mentioned in bugs. 
+ * My mentor recommended a youtube tutorial by Sam Codes that help with my ideas and intial coding for markers and infowindows. 
+
+ [Sam Codes](https://www.youtube.com/watch?v=uPhWSyRqQDA)
+
+ * I then needed to link the buttons with the markers and infowindows. This was helped with tutors and with Stackoverflow onclick explanations. This caused an issue when I put function within let markers within the init map function when it needed to go before it.
+
+ * Finally I needed to make sure a window would close when a new one was opened. This was also achieved by looking at another W3schools tutorial. [Stackoverflow](https://stackoverflow.com/questions/2223574/google-maps-auto-close-open-infowindows)
+
+ #### Javascript for Mail
+ * My initial mail wouldn't work or was sending it when the page opened, without any input. I then had to add windowonload before the function and this worked. 
