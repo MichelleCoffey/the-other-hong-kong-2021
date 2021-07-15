@@ -91,6 +91,7 @@ html,body
     color: lightsalmon;
     text-align: center;
     flex-direction: column;
+    overflow: scroll;
 }
 
 .content a {
