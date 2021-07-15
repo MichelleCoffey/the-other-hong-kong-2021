@@ -1,4 +1,5 @@
 var map;
+var activeInfoWindow;
 var markers = [];
 
 function initMap(){
@@ -76,7 +77,9 @@ function addMarker(property){
   });
 
   marker.addListener("click", () =>{
+    if(activeInfoWindow){activeInfoWindow.close();}
     detailWindow.open(map, marker);
+    activeInfoWindow = detailWindow;
   })
 markers.push(marker);
 }
