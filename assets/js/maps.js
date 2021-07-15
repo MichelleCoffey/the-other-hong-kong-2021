@@ -61,6 +61,8 @@ for (let i = 0; i < markerArray.length; i++){
   addMarker(markerArray[i]);
 }
 
+// add info to makers
+
 function addMarker(property){
 
   const marker = new google.maps.Marker({
