@@ -1,8 +1,8 @@
 # **The Other Hong Kong**
 [View a live version of The Other Hong Kong here]()
 This is the main website for *The Other Hong Kong*. We aim to introduce people to the other Hong Kong. The side of Hong Kong where you can enjoy the almost 70% of National Parks, exclusives spas and yoga classes. The site is designed to be responsive and accessible on a wide range of devices. Making it easy to navigate to all the relevant content.
-![The Other Hong Kong on mobile, ipad, ipad pro and desk top.](images/display.png) "The Other Hong Kong on multiple displays"
-![The Other Hong Kong on many types of devices and showing each page.](images/displaydiff.png) "The Other Hong Kong on multiple displays and showing different pages."
+![The Other Hong Kong on mobile, ipad, ipad pro and desk top.](images/tohkresdes.png) "The Other Hong Kong on multiple displays"
+![The Other Hong Kong on many types of devices and showing each page.](images/ohkresdes2.png) "The Other Hong Kong on multiple displays and showing different pages."
 ## Table of Contents
 ### [User Experience](#user-experience-(ux))
 #### [User Stories](#user-stories)

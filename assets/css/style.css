@@ -67,7 +67,7 @@ html,body
   position: relative;
   max-width: 100%;
   height: fit-content;
-  margin: 0;
+  
   
 }
 
@@ -156,7 +156,6 @@ h1 {
     font-size: 1em;
     font-weight: 100;
     font-size: 18px;
-    margin: 60, 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -199,12 +198,11 @@ button, input {
 
 }
 
-
-
 @media only screen 
-  and (min-device-width: 600px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+    {
     #form {
         width: 400px;
         margin: auto;
@@ -212,17 +210,7 @@ button, input {
         display: block;
       }
 
-}
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 
@@ -240,7 +228,6 @@ footer{
     width: 100%;
     text-align: center;
     font-size: 16px;
-    margin: 0;
     padding: 0;
 }
 
@@ -254,29 +241,8 @@ footer{
 
 ul.social-media {
     padding: 0;
-    margin: 0;
     
 }
-
-@media (max-device-width: 320px) {
-
-
-    
-   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 div#map {
     min-height: 360px;
