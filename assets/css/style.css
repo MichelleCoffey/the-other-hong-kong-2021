@@ -24,7 +24,7 @@ html,body
 .navbar {
     background-color: lightsalmon;
     margin: 0px;
-    flex-wrap: nowrap;
+    
 }
 
 .navbar-brand {
@@ -36,6 +36,14 @@ html,body
     color: darkslategray;
     
 }
+
+.navbar-dark .navbar-nav .nav-link{
+    color: darkslategray;
+}
+
+
+
+
 
 
 .navbar-toggler-icon {
@@ -189,7 +197,8 @@ button, input {
 .col {
     padding-bottom: 10px;
     padding-top: 10px;
-    overflow: scroll;
+    
+
 }
 
 
